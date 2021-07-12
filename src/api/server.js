@@ -65,14 +65,14 @@ const notificationTemplates = [
 new Server({
   routes() {
     this.namespace = 'fakeApi'
-    //this.timing = 2000
+    this.timing = 2000
 
     this.resource('users')
     this.resource('posts')
     this.resource('comments')
 
     const server = this
-
+    
     this.post('/posts', function (schema, req) {
       const data = this.normalizedRequestAttrs()
       data.date = new Date().toISOString()
