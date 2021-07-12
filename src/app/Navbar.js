@@ -27,7 +27,7 @@ export const Navbar = () => {
   return (
     <nav>
       <section>
-        <h1>My Blog sample</h1>
+        <h1>My Blog Website</h1>
 
         <div className="navContent">
           <div className="navLinks">

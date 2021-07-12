@@ -68,3 +68,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Building the project
+The project was forked to practice how Redux can be implemented with React.
+The UI is not well focused on, learning and practicing how the functionality is being handled is the goal
